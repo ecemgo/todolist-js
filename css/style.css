@@ -40,3 +40,7 @@ input[type=text], input[type=text]:focus{
 .delete{
     cursor: pointer;
 }
+
+.filtered{
+    display: none !important;  
+}
