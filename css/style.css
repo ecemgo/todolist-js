@@ -1,0 +1,43 @@
+html{
+    height: 100%;
+}
+ 
+body{
+    /* background-image: linear-gradient(to bottom right, #80FFDB, #5390D9); */
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: white;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, blue, red);
+    background: -moz-linear-gradient( to left top, blue, red);
+    background: -ms-linear-gradient( to left top, blue, red);
+    background: -o-linear-gradient( to left top, blue, red);
+    background: linear-gradient( to left top, blue, red);
+}
+
+::placeholder{
+    color: #fff !important;
+}
+
+.container{
+    max-width: 400px;
+}
+
+input[type=text], input[type=text]:focus{
+    color: #fff;
+    border:none;
+    background: rgb(0, 0, 0, 0.2);
+    max-width: 400px;
+}
+
+.todos li{
+    background: white;
+}
+
+.delete{
+    cursor: pointer;
+}
