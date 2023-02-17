@@ -15,7 +15,7 @@ const generateTemplate = (task) => {
 
 // yeni task submit etme
 addForm.addEventListener("submit", (e) => {
-  e.preventDefault(); // sayfanın yenilenmesini önleme
+  e.preventDefault(); // to prevent to reload the page
   const task = addForm.add.value.trim(); //trimStart() başındaki boşluğu önler, trimEnd() sondaki boşluğu önler
   //console.log(task);
   if (task.length > 0) {
@@ -27,7 +27,7 @@ addForm.addEventListener("submit", (e) => {
 
 // delete task from list
 list.addEventListener("click", (e) => {
-  if (e.target.classList.contains("delete")); //delete class'ını içeriyorsa
+  if (e.target.classList.contains("delete")); // if it contains delete class
   {
     e.target.parentElement.remove();
   }
