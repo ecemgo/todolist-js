@@ -1,46 +1,82 @@
-html{
-    height: 100%;
-}
- 
-body{
-    /* background-image: linear-gradient(to bottom right, #80FFDB, #5390D9); */
-    width: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background: white;
-    background-repeat:no-repeat;
-    background: -webkit-linear-gradient( to left top, blue, red);
-    background: -moz-linear-gradient( to left top, blue, red);
-    background: -ms-linear-gradient( to left top, blue, red);
-    background: -o-linear-gradient( to left top, blue, red);
-    background: linear-gradient( to left top, blue, red);
+html {
+  height: 100%;
 }
 
-::placeholder{
-    color: #fff !important;
+body {
+  /* background-image: linear-gradient(to bottom right, #80FFDB, #5390D9); */
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: white;
+  background-repeat: no-repeat;
+  background: -webkit-linear-gradient(to left top, blue, red);
+  background: -moz-linear-gradient(to left top, blue, red);
+  background: -ms-linear-gradient(to left top, blue, red);
+  background: -o-linear-gradient(to left top, blue, red);
+  background: linear-gradient(to left top, blue, red);
 }
 
-.container{
-    max-width: 400px;
+::placeholder {
+  color: #fff !important;
 }
 
-input[type=text], input[type=text]:focus{
-    color: #fff;
-    border:none;
-    background: rgb(0, 0, 0, 0.2);
+.container {
+  position: relative;
+  max-width: 400px;
 }
 
-.todos li{
-    background: white;
+input[type="text"],
+input[type="text"]:focus {
+  color: #fff;
+  border: none;
+  background: rgb(0, 0, 0, 0.2);
 }
 
-.delete{
-    cursor: pointer;
+.todos li {
+  background: white;
 }
 
-.filtered{
-    display: none !important;  
+.delete {
+  cursor: pointer;
+}
+
+.filtered {
+  display: none !important;
+}
+
+.todobox {
+  position: absolute;
+  top: 50px;
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+  );
+  background-blend-mode: ;
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+#new-task-submit {
+  background: white;
+  border: 2px solid gray;
+  border-radius: 5px;
+  width: 100px;
+  transition: 0.6s;
+}
+
+#new-task-submit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  background: #7a3a8a;
+  color: white;
+  border: 2px solid white;
 }
