@@ -1,7 +1,7 @@
 # To Do List 
 
-- New tasks can be entered and deleted.
 - It is made by using HTML, CSS and Javascript.
+- New tasks can be entered and deleted.
 - The view of glass was given to the box, and its background was created via the linear gradient.
 - You can view the entire page from [here](https://ecemgo-todolist-js.netlify.app/).
 
