@@ -22,6 +22,7 @@ In this project, new tasks can be entered and deleted in terms of functionality.
 - CSS custom properties
 - Javascript
 - Linear Gradient
+- Glassmorphism CSS
 
 ### Useful resources
 
