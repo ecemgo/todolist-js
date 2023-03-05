@@ -24,13 +24,13 @@ In this project, new tasks can be entered and deleted in terms of functionality.
 - CSS custom properties
 - Javascript
 - Linear Gradient
-- Glassmorphism CSS
+- Glassmorphism
 
 ### Useful resources
 
-- [Border Glass UI](https://www.toptal.com/developers/css3maker/examples/border-glass-ui) - It helped me to give the glass effect to the border.
-- [Udemy](https://www.udemy.com/course/modern-javascript-from-novice-to-ninja/) - Shaun Pelling's course called 'Modern JavaScript (Complete guide, from Novice to Ninja)' helped me to understand the concept.
-- [CSS gradients for background](https://bootcamp.uxdesign.cc/use-css-gradients-for-background-gradient-images-dc98c2b7848a) - Kirsten Swanson's article released on Bootcamp helped me to understand the concept of css gradients for background.
+- [Glassmorphism](https://www.toptal.com/developers/css3maker/examples/border-glass-ui) - It is used to give the glass effect to the box.
+- [Udemy](https://www.udemy.com/course/modern-javascript-from-novice-to-ninja/) - Shaun Pelling's course called 'Modern JavaScript (Complete guide, from Novice to Ninja)' was used to understand the concept.
+- [CSS gradients for background](https://bootcamp.uxdesign.cc/use-css-gradients-for-background-gradient-images-dc98c2b7848a) - Kirsten Swanson's article released on Bootcamp is used to understand the concept of css gradients for background.
 
 ## Author
 
