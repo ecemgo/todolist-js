@@ -1,4 +1,4 @@
-# To Do List
+# <img src="https://user-images.githubusercontent.com/13468728/222974158-cab4ada1-23de-4e2e-ae05-ad44f4177b63.png" alt="To Do List" width="50" height="50"/> To Do List
 
 ## Overview
 
@@ -13,8 +13,6 @@ In this project, new tasks can be entered and deleted in terms of functionality.
 <p align="left">
 <img src="https://user-images.githubusercontent.com/13468728/220853043-61ff478f-0655-49cc-a43a-d2a56d326dd1.jpg" title="To Do List" alt="To Do List" width="600" height="400"/>
 </p>
-
-
 
 ## The process
 
