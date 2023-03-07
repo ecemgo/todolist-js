@@ -10,9 +10,9 @@ In this project, new tasks can be entered and deleted in terms of functionality.
 
 ### Screenshot
 
-<p align="left">
-<img src="https://user-images.githubusercontent.com/13468728/220853043-61ff478f-0655-49cc-a43a-d2a56d326dd1.jpg" title="To Do List" alt="To Do List" width="600" height="400"/>
-</p>
+<div align="center">
+<img src="https://user-images.githubusercontent.com/13468728/223393045-7ccbb72b-15ea-4167-9e11-44912e1f886f.jpg" title="To Do List" alt="To Do List" width="600" height="400"/>
+</div>
 
 ## The process
 
