@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  /* background-image: linear-gradient(to bottom right, #80FFDB, #5390D9); */
   width: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -17,16 +16,17 @@ body {
   background: -ms-linear-gradient(to left top, blue, red);
   background: -o-linear-gradient(to left top, blue, red);
   background: linear-gradient(to left top, blue, red);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Quicksand', sans-serif;
 }
 
 ::placeholder {
   color: #fff !important;
 }
 
-.container {
-  position: relative;
-  max-width: 400px;
-}
 
 input[type="text"],
 input[type="text"]:focus {
@@ -35,12 +35,22 @@ input[type="text"]:focus {
   background: rgb(0, 0, 0, 0.2);
 }
 
+h1 {
+  font-weight: 600;
+}
+
 .todos li {
   background: white;
 }
 
 .delete {
   cursor: pointer;
+}
+
+.delete:hover {
+  transform: scale(1.2);
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
 }
 
 .filtered {
@@ -60,21 +70,29 @@ input[type="text"]:focus {
     rgba(255, 255, 255, 0.1) 77%
   );
   background-blend-mode: luminosity;
-  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
 }
 
+.text-light {
+  margin-bottom: 0.5em;;
+}
+
 #new-task-submit {
   background: white;
-  border: 2px solid gray;
+  border: 2px solid rgba(185, 174, 174, 0.5);
   border-radius: 5px;
   width: 100px;
   transition: 0.6s;
+  font-weight: 600;
+  color: rgb(134, 132, 132);
 }
 
 #new-task-submit:hover {
-  transform: translateY(-3px);
+  /* transform: translateY(-3px); */
+  transition-duration: 800ms;
+  transition-timing-function: ease-in-out;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   background: #7a3a8a;
   color: white;

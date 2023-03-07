@@ -8,44 +8,43 @@
     <meta name="keywords" content="todo list, to do app, to do, to do list, html css, javascript, ecem gokdogan, ecemgo, FrontendMentor.io, ecem gokdogan frontend, frontend developer, github"/>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="planner.png">
     <title>To Do List</title>
 </head>
 <body>
-    
-    <div class="container">
-        <div class="todobox">
-            <header class="text-center text-light my-4">
-                <h1 class="mb-4">To Do List</h1>
-                <form class="search" autocomplete="off">
-                    <input class="form-control" type="text" name="search" placeholder="Search..">
-                </form>
-            </header>
-
-            <main>
-                <ul class="list-group text-light todos">
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <span>Go swimming</span>
-                        <i class="fa-regular fa-trash-can delete"></i>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <span>Study Javascript</span>
-                        <i class="fa-regular fa-trash-can delete"></i>
-                    </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
-                        <span>Feed your cat</span>
-                        <i class="fa-regular fa-trash-can delete"></i>
-                    </li>
-                </ul>
-            </main>
-    
-            <form class="text-center my-4 addform" autocomplete="off">
-                <label class="text-light">Write a new task</label>
-                <input class="form-control m-auto" type="text" name="add">
-                <input class="mt-3" id="new-task-submit" type="submit" value="Add Task">
+    <div class="todobox">
+        <header class="text-center text-light my-4">
+            <h1 class="mb-4">To Do List</h1>
+            <form class="search" autocomplete="off">
+                <input class="form-control" type="text" name="search" placeholder="Search..">
             </form>
-        </div>
+        </header>
 
+        <main>
+            <ul class="list-group text-light todos">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Go swimming</span>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Study Javascript</span>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Feed your cat</span>
+                    <i class="fa-regular fa-trash-can delete"></i>
+                </li>
+            </ul>
+        </main>
+
+        <form class="text-center my-4 addform" autocomplete="off">
+            <label class="text-light">Write a new task</label>
+            <input class="form-control m-auto" type="text" name="add">
+            <input class="mt-3" id="new-task-submit" type="submit" value="Add Task">
+        </form>
     </div>
 
 

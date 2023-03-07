@@ -2,7 +2,7 @@ const addForm = document.querySelector(".addform");
 const list = document.querySelector(".todos");
 const search = document.querySelector(".search input");
 
-// yeni task'ın html yapısı - listenin elemanı
+//! yeni task'ın html yapısı - listenin elemanı
 const generateTemplate = (task) => {
   const html = `
     <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -13,7 +13,7 @@ const generateTemplate = (task) => {
   list.innerHTML += html;
 };
 
-// yeni task submit etme
+//! yeni task submit etme
 addForm.addEventListener("submit", (e) => {
   e.preventDefault(); // to prevent to reload the page
   const task = addForm.add.value.trim(); //trimStart() başındaki boşluğu önler, trimEnd() sondaki boşluğu önler
@@ -25,7 +25,7 @@ addForm.addEventListener("submit", (e) => {
   }
 });
 
-// delete task from list
+//! delete task from list
 list.addEventListener("click", (e) => {
   if (e.target.classList.contains("delete")); // if it contains delete class
   {
@@ -33,7 +33,7 @@ list.addEventListener("click", (e) => {
   }
 });
 
-// Search yapıldığında listedeki elementin var olup olmadığını kontrol etme
+//! Search yapıldığında listedeki elementin var olup olmadığını kontrol etme
 const filterTodos = (listElement) => {
   // console.log(listElement);
   // console.log(list.children);
@@ -47,7 +47,7 @@ const filterTodos = (listElement) => {
     .forEach((todo) => todo.classList.remove("filtered")); //Aranan varsa, listede gözüksün
 };
 
-// filter task
+//! filter task
 search.addEventListener("keyup", () => {
   const listElement = search.value.trim().toLowerCase();
   //console.log(listElement);
